@@ -65,77 +65,77 @@ export default function Body() {
                 </section>
 
                 {/* middle table part start here */}
-                <div class="relative overflow-x-auto shadow-md sm:rounded-lg ml-4 max-w-8xl">
-                    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                <div className="relative overflow-x-auto shadow-md sm:rounded-lg ml-4 max-w-8xl">
+                    <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                             <tr>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" className="px-6 py-3">
                                     Product name
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" className="px-6 py-3">
                                     Color
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" className="px-6 py-3">
                                     Category
                                 </th>
-                                <th scope="col" class="px-6 py-3">
+                                <th scope="col" className="px-6 py-3">
                                     Price
                                 </th>
-                                <th scope="col" class="px-6 py-3">
-                                    <span class="sr-only">Edit</span>
+                                <th scope="col" className="px-6 py-3">
+                                    <span className="sr-only">Edit</span>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
                                     Apple MacBook Pro 17"
                                 </th>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     Sliver
                                 </td>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     Laptop
                                 </td>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     $2999
                                 </td>
-                                <td class="px-6 py-4 text-right">
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                <td className="px-6 py-4 text-right">
+                                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
                                     Microsoft Surface Pro
                                 </th>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     White
                                 </td>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     Laptop PC
                                 </td>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     $1999
                                 </td>
-                                <td class="px-6 py-4 text-right">
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                <td className="px-6 py-4 text-right">
+                                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                            <tr className="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                <th scope="row" className="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
                                     Magic Mouse 2
                                 </th>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     Black
                                 </td>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     Accessories
                                 </td>
-                                <td class="px-6 py-4">
+                                <td className="px-6 py-4">
                                     $99
                                 </td>
-                                <td class="px-6 py-4 text-right">
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                <td className="px-6 py-4 text-right">
+                                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -167,7 +167,7 @@ export default function Body() {
                             <h2 className='Barheading mt-3  leading-10 text-black text-5xl font-medium w-full '>The Most trusted cryptocurrency platform </h2>
                             <p className='paraBar mt-3 text-2xl w-full leading-10'>Here are few reasons why shilud you choose <span>Cuko</span>  </p>
                             <div className='reasonsitems  flex  flex-row justify-center w-full mt-8 '>
-                                <div className='r-item m-4 items-center w-full'>  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" style={{ margin: "auto" }} fill="#fb8c00" class="bi bi-shield-lock-fill" viewBox="0 0 16 16">
+                                <div className='r-item m-4 items-center w-full'>  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" style={{ margin: "auto" }} fill="#fb8c00" className="bi bi-shield-lock-fill" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm0 5a1.5 1.5 0 0 1 .5 2.915l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99A1.5 1.5 0 0 1 8 5z" />
                                 </svg>
                                     <h2 className='secure mt-5 text-3xl leading-8 font-semibold'>Secure Storage</h2>
@@ -181,7 +181,7 @@ export default function Body() {
 
                                 <div className='r-item   w-full   '>
                                     <div className='insideItemsSecurity m-4'>
-                                        <div className='bsImg m-auto w-82 h-22'><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" style={{ margin: "auto" }} fill="#e91e63" class="bi bi-stars" viewBox="0 0 16 16">
+                                        <div className='bsImg m-auto w-82 h-22'><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" style={{ margin: "auto" }} fill="#e91e63" className="bi bi-stars" viewBox="0 0 16 16">
                                             <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z" />
                                         </svg></div>
 
@@ -240,20 +240,20 @@ export default function Body() {
                         <div className='additonallItemsInside w-full flex flex-row  mt-16  m-auto '>
                             <div className='additionalDivItems w-1/3'>
                                 {/* images */}
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff5d5d" style={{ margin: "auto" }} class="bi bi-person-hearts" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#ff5d5d" style={{ margin: "auto" }} className="bi bi-person-hearts" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276ZM15 2.165c.555-.57 1.942.428 0 1.711-1.942-1.283-.555-2.281 0-1.71Z" />
                                 </svg>
                                 <p className='additionalDivPara  mt-8 leading-8 text-3xl text-black font-semibold'>Create an account </p>
                             </div>
                             <div className='additionalDivItems w-1/3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" style={{ margin: "auto" }} fill="#ff6363" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" style={{ margin: "auto" }} fill="#ff6363" className="bi bi-link-45deg" viewBox="0 0 16 16">
                                     <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
                                     <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
                                 </svg>
                                 <p className='additionalDivPara  mt-8 leading-8 text-3xl text-black font-semibold'>Link your bank account </p>
                             </div>
                             <div className='additionalDivItems w-1/3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" style={{ margin: "auto" }} fill="#ffb72b" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" style={{ margin: "auto" }} fill="#ffb72b" className="bi bi-bag-heart-fill" viewBox="0 0 16 16">
                                     <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
                                 </svg>
                                 <p className='additionalDivPara  mt-8 leading-8 text-3xl text-black font-semibold'>Purchase Cuko </p>
