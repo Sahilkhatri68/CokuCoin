@@ -268,7 +268,7 @@ export default function Body() {
                     <div className='spaceDiv flex grow flex-row'></div>
                 </section>
                 {/* footer start's from here  */}
-                <footer className='footer flex w-full m-auto p-3 bg-white'>
+                {/* <footer className='footer flex w-full m-auto p-3 bg-white'>
                     <div className='footerwrapper flex w-full  '>
                         <section className='sectionfooter p-10 mt-1'>
                             <div className='footerclass max-w-200' >
@@ -318,7 +318,7 @@ export default function Body() {
                             </div>
                         </div>
                     </div>
-                </footer>
+                </footer> */}
             </div>
         </>
     )
